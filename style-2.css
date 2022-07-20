@@ -219,4 +219,15 @@ nav ul li a{
     color:white
 }
 
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.sc-icon{
+    
+    font-size: 30px;
+    margin:10px
+}
+
 /* footer section ends here */
