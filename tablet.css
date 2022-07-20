@@ -1,0 +1,95 @@
+	/* for responsive tablet design */
+
+@media only screen and (max-width: 992px) {
+
+    /* banner parts */
+
+    #banner-section{
+     
+        background-color: black;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        margin: 30px auto;
+        width: 98%;
+        height: 55vh;
+        background: #161616;
+        border-radius: 30px;
+    }
+
+    .banner-heading{
+        font-size: 45px;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    /* event section */
+
+    #match-event-sec{
+        width: 100%;
+        margin: auto;
+        padding:10px;
+    }
+    
+    .event-container{
+        display:flex;
+        flex-direction: column;
+      
+    }
+
+    .menu-sec{
+        width: 100%;
+        margin-right: 20px;
+        height: auto;
+        background: white;
+        border-radius: 10px;
+        color:black;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu{
+        border:1px solid rgb(210, 197, 197);
+        text-align: center;
+    }
+
+    .event-sec{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px
+    }
+
+    .card{
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+        border:1px solid rgb(240, 236, 236);
+        border-radius:10px
+    }
+
+    .tablet-btn{
+        display: block;
+        margin: 30px auto;
+        color:white;
+        
+
+    }
+
+    hr{
+        width:100%
+    }
+    
+    
+    
+
+}
